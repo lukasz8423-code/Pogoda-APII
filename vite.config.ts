@@ -7,7 +7,7 @@ export default defineConfig(() => {
   const isHmrDisabled = process.env.DISABLE_HMR === 'true';
 
   return {
-    base: '/Pogoda-API/',
+    base: '/Pogoda-APII/',
     plugins: [react(), tailwindcss()],
     define: isHmrDisabled ? {
       'import.meta.hot': JSON.stringify({
